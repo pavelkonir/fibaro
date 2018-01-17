@@ -57,7 +57,7 @@ while true do
         if (boilerRelayState == 1) then
             fibaro:debug("Boiler is switched on, it will be stoped")
             fibaro:call(boilerRelayId, "turnOff");
-            boilerRelayState = O
+            boilerRelayState = 0
         else
             fibaro:debug("Boiler is already switched off")
         end
