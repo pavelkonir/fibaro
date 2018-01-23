@@ -1,4 +1,5 @@
 --[[
+%% autostart
 %% properties
 %% events
 %% globals
